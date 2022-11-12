@@ -1,0 +1,132 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	width:100%;
+
+}
+
+.container header{
+	background:#979396;
+}
+
+header:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.nav-area{
+	float:right;
+	padding-top:30px;
+	padding-right:30px;
+}
+
+.nav-area ul{
+	list-style-type:none;
+}
+
+.nav-area ul a{
+	text-decoration:none;
+	float:left;
+	padding:10px;
+	font-size:20px;
+	font-family:tahoma;
+	color:black;
+	transition-duration:.5s;
+}
+.nav-area ul a:hover{
+	color:white;
+	background:#86719E ;
+	border-radius:10px;
+}
+.dotted {
+	border-style: dotted;
+	}
+	
+.hero-section
+{
+	height:85vh;
+	width:100%;
+	background-image:url('../image/download.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+
+	
+
+.hero-section button:
+{
+	background:none;
+
+}
+form {
+  border: 3px solid #f1f1f1;
+}
+
+
+input[type=text], input[type=password] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color:#BD7DF3;
+  color: white;
+  padding: 14px ;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin:0;
+}
+
+
+.avatar {
+  width: 100px;
+  border-radius: 100px;
+}
+
+
+.container {
+  padding: 5px;
+}
+
+.psw {
+  float: right;
+  padding-top: 20px;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    float: none;
+  }
+.cancelbtn {
+    width: 50px;
+  }
+}
+

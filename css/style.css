@@ -1,0 +1,113 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	width:100%;
+
+}
+
+.container header{
+	background:#979396;
+}
+
+header:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.nav-area{
+	float:right;
+	padding-top:30px;
+	padding-right:30px;
+}
+
+.nav-area ul{
+	list-style-type:none;
+}
+
+.nav-area ul a{
+	text-decoration:none;
+	float:left;
+	padding:10px;
+	font-size:20px;
+	font-family:tahoma;
+	color:black;
+	transition-duration:.5s;
+}
+.nav-area ul a:hover{
+	color:white;
+	background:#86719E ;
+	border-radius:10px;
+}
+.dotted {
+	border-style: dotted;
+	}	
+
+.hero-section button:
+{
+	background:none;
+
+}
+*{box-sizing: border-box}
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
